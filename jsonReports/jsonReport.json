@@ -102,12 +102,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 49211,
+                      "duration": 69350,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.436Z",
+                      "startTime": "2024-12-14T09:11:44.636Z",
                       "attachments": []
                     }
                   ],
@@ -123,12 +123,12 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 59082,
+                      "duration": 13144,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.525Z",
+                      "startTime": "2024-12-14T09:11:44.448Z",
                       "attachments": []
                     }
                   ],
@@ -155,12 +155,12 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 78969,
+                      "duration": 59231,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.640Z",
+                      "startTime": "2024-12-14T09:11:44.648Z",
                       "attachments": []
                     }
                   ],
@@ -176,12 +176,12 @@
                     {
                       "workerIndex": 7,
                       "status": "passed",
-                      "duration": 9787,
+                      "duration": 48797,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.432Z",
+                      "startTime": "2024-12-14T09:11:44.959Z",
                       "attachments": []
                     }
                   ],
@@ -208,12 +208,12 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 69963,
+                      "duration": 30363,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.634Z",
+                      "startTime": "2024-12-14T09:11:44.652Z",
                       "attachments": []
                     }
                   ],
@@ -227,14 +227,14 @@
                   "projectName": "macOS Catalina - Chromium",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 61829,
+                      "duration": 30035,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:12.318Z",
+                      "startTime": "2024-12-14T09:11:55.167Z",
                       "attachments": []
                     }
                   ],
@@ -261,12 +261,12 @@
                     {
                       "workerIndex": 3,
                       "status": "passed",
-                      "duration": 31826,
+                      "duration": 18080,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.529Z",
+                      "startTime": "2024-12-14T09:11:44.748Z",
                       "attachments": []
                     }
                   ],
@@ -280,14 +280,14 @@
                   "projectName": "macOS Catalina - Chromium",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 6,
                       "status": "passed",
-                      "duration": 18465,
+                      "duration": 28299,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:14.956Z",
+                      "startTime": "2024-12-14T09:11:57.688Z",
                       "attachments": []
                     }
                   ],
@@ -314,12 +314,12 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 11806,
+                      "duration": 9794,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.434Z",
+                      "startTime": "2024-12-14T09:11:44.348Z",
                       "attachments": []
                     }
                   ],
@@ -335,12 +335,12 @@
                     {
                       "workerIndex": 9,
                       "status": "passed",
-                      "duration": 17367,
+                      "duration": 39462,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:23.424Z",
+                      "startTime": "2024-12-14T09:12:03.526Z",
                       "attachments": []
                     }
                   ],
@@ -367,12 +367,12 @@
                     {
                       "workerIndex": 5,
                       "status": "passed",
-                      "duration": 20567,
+                      "duration": 27992,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:02.330Z",
+                      "startTime": "2024-12-14T09:11:44.635Z",
                       "attachments": []
                     }
                   ],
@@ -386,14 +386,14 @@
                   "projectName": "macOS Catalina - Chromium",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 10,
                       "status": "passed",
-                      "duration": 22819,
+                      "duration": 21420,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:35:33.433Z",
+                      "startTime": "2024-12-14T09:12:13.294Z",
                       "attachments": []
                     }
                   ],
@@ -412,8 +412,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-12-14T07:34:59.457Z",
-    "duration": 82178.74100000001,
+    "startTime": "2024-12-14T09:11:41.269Z",
+    "duration": 72826.168,
     "expected": 12,
     "skipped": 0,
     "unexpected": 0,
