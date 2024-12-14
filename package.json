@@ -1,0 +1,14 @@
+{
+  "name": "playwrightlambda",
+  "version": "1.0.0",
+  "description": "PDEA Playwright Lambda",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  }
+}
