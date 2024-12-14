@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 8
     },
     "preserveOutput": "always",
     "reporter": [
@@ -48,7 +48,7 @@
         "testDir": "/workspace/PlaywrightLambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/TS3.test.ts"
+          "tests/TS.test.ts"
         ],
         "timeout": 300000
       },
@@ -62,7 +62,7 @@
         "testDir": "/workspace/PlaywrightLambda",
         "testIgnore": [],
         "testMatch": [
-          "tests/TS3.test.ts"
+          "tests/TS.test.ts"
         ],
         "timeout": 300000
       }
@@ -75,15 +75,15 @@
   },
   "suites": [
     {
-      "title": "tests/TS3.test.ts",
-      "file": "tests/TS3.test.ts",
+      "title": "tests/TS.test.ts",
+      "file": "tests/TS.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Cross-platform Parallel Tests",
-          "file": "tests/TS3.test.ts",
+          "file": "tests/TS.test.ts",
           "line": 19,
           "column": 15,
           "specs": [
@@ -102,12 +102,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 20145,
+                      "duration": 49211,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:10:28.748Z",
+                      "startTime": "2024-12-14T07:35:02.436Z",
                       "attachments": []
                     }
                   ],
@@ -121,23 +121,129 @@
                   "projectName": "macOS Catalina - Chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 6,
                       "status": "passed",
-                      "duration": 10645,
+                      "duration": 59082,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:10:28.738Z",
+                      "startTime": "2024-12-14T07:35:02.525Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "905e9fbaff80639087ec-8e2e09ebfe61d8c5ca9f",
-              "file": "tests/TS3.test.ts",
-              "line": 26,
+              "id": "cb3deb154cd503057399-1881366337e81ceab38c",
+              "file": "tests/TS.test.ts",
+              "line": 28,
+              "column": 13
+            },
+            {
+              "title": "Windows 10 - Chrome: Validate Drag & Drop Sliders",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Windows 10 - Chromium",
+                  "projectName": "Windows 10 - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 78969,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:02.640Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "macOS Catalina - Chromium",
+                  "projectName": "macOS Catalina - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 9787,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:02.432Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb3deb154cd503057399-3b1ff2dc8ffb5a87f771",
+              "file": "tests/TS.test.ts",
+              "line": 63,
+              "column": 13
+            },
+            {
+              "title": "Windows 10 - Chrome: Validate Input Form Submit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Windows 10 - Chromium",
+                  "projectName": "Windows 10 - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 69963,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:02.634Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "macOS Catalina - Chromium",
+                  "projectName": "macOS Catalina - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 61829,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:12.318Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb3deb154cd503057399-c5987de5845275917db8",
+              "file": "tests/TS.test.ts",
+              "line": 98,
               "column": 13
             },
             {
@@ -153,14 +259,14 @@
                   "projectName": "Windows 10 - Chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
+                      "workerIndex": 3,
                       "status": "passed",
-                      "duration": 29993,
+                      "duration": 31826,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:10:28.738Z",
+                      "startTime": "2024-12-14T07:35:02.529Z",
                       "attachments": []
                     }
                   ],
@@ -174,23 +280,129 @@
                   "projectName": "macOS Catalina - Chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 13329,
+                      "duration": 18465,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-12-14T07:10:28.711Z",
+                      "startTime": "2024-12-14T07:35:14.956Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "905e9fbaff80639087ec-938d33c01289c8ed3d6a",
-              "file": "tests/TS3.test.ts",
-              "line": 26,
+              "id": "cb3deb154cd503057399-e01e08aeee41fc70e706",
+              "file": "tests/TS.test.ts",
+              "line": 28,
+              "column": 13
+            },
+            {
+              "title": "macOS Catalina - Chrome: Validate Drag & Drop Sliders",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Windows 10 - Chromium",
+                  "projectName": "Windows 10 - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 11806,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:02.434Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "macOS Catalina - Chromium",
+                  "projectName": "macOS Catalina - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 17367,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:23.424Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb3deb154cd503057399-55475172c284cb18bb42",
+              "file": "tests/TS.test.ts",
+              "line": 63,
+              "column": 13
+            },
+            {
+              "title": "macOS Catalina - Chrome: Validate Input Form Submit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Windows 10 - Chromium",
+                  "projectName": "Windows 10 - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 20567,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:02.330Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "macOS Catalina - Chromium",
+                  "projectName": "macOS Catalina - Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 22819,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-14T07:35:33.433Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb3deb154cd503057399-3a68ca0e5a33cc897b3f",
+              "file": "tests/TS.test.ts",
+              "line": 98,
               "column": 13
             }
           ]
@@ -200,9 +412,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-12-14T07:10:28.059Z",
-    "duration": 30702.6,
-    "expected": 4,
+    "startTime": "2024-12-14T07:34:59.457Z",
+    "duration": 82178.74100000001,
+    "expected": 12,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

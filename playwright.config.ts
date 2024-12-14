@@ -50,7 +50,7 @@ const config: PlaywrightTestConfig = {
         },
     ],
 
-    testMatch: ["tests/TS3.test.ts"],
+    testMatch: ["tests/TS.test.ts"],
     use: {
         baseURL: "https://www.lambdatest.com/selenium-playground/",
         headless: false,
